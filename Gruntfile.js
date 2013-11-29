@@ -11,6 +11,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     // Task configuration.
     less: {
+      options: {
+        report: 'gzip'
+      },
       bigGrid: {
         src: ['less/big-grid.less'],
         dest: 'dist/css/<%= pkg.name %>.css'
@@ -25,7 +28,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      recess: {
+      less: {
         files: 'less/*.less',
         tasks: ['less']
       }
