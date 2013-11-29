@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Bootstrap Big Grid -- Larger Grid Dimensions for Bootstrap</title>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+  <style type="text/css">
+    .table code {
+      font-size: 13px;
+      font-weight: normal;
+    }
+    .responsive-utilities-test {
+      margin-top: 5px;
+    }
+    .responsive-utilities td.is-hidden {
+      color: #ccc;
+      background-color: #f9f9f9 !important;
+    }
+    .responsive-utilities td.is-visible {
+      color: #468847;
+      background-color: #dff0d8 !important;
+    }
+    .responsive-utilities-test .col-xs-4 {
+      margin-bottom: 10px;
+    }
+    .responsive-utilities-test span {
+      padding: 15px 10px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.1;
+      text-align: center;
+      border-radius: 4px;
+    }
+    .visible-on .col-xs-4 .hidden-tv720p,
+    .visible-on .col-xs-4 .hidden-tv1080p,
+    .visible-on .col-xs-4 .hidden-tv1440p,
+    .visible-on .col-xs-4 .hidden-retina15,
+    .visible-on .col-xs-4 .hidden-tv4k,
+    .visible-on .col-xs-4 .hidden-tv8k,
+    .hidden-on .col-xs-4 .hidden-tv720p,
+    .hidden-on .col-xs-4 .hidden-tv1080p,
+    .hidden-on .col-xs-4 .hidden-tv1440p,
+    .hidden-on .col-xs-4 .hidden-retina15,
+    .hidden-on .col-xs-4 .hidden-tv4k,
+    .hidden-on .col-xs-4 .hidden-tv8k {
+      color: #999;
+      border: 1px solid #ddd;
+    }
+    .visible-on .col-xs-4 .visible-tv720p,
+    .visible-on .col-xs-4 .visible-tv1080p,
+    .visible-on .col-xs-4 .visible-tv1440p,
+    .visible-on .col-xs-4 .visible-retina15,
+    .visible-on .col-xs-4 .visible-tv4k,
+    .visible-on .col-xs-4 .visible-tv8k,
+    .hidden-on .col-xs-4 .visible-tv720p,
+    .hidden-on .col-xs-4 .visible-tv1080p,
+    .hidden-on .col-xs-4 .visible-tv1440p,
+    .hidden-on .col-xs-4 .visible-retina15,
+    .hidden-on .col-xs-4 .visible-tv4k,
+    .hidden-on .col-xs-4 .visible-tv8k {
+      color: #468847;
+      background-color: #dff0d8;
+      border: 1px solid #d6e9c6;
+    }
+    footer {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      margin-top: 60px;
+      color: #777;
+      border-top: 1px solid #e5e5e5;
+    }
+    .footer-links {
+      margin: 10px 0;
+      padding-left: 0;
+    }
+    .footer-links li {
+      display: inline;
+      padding: 0 2px;
+    }
+    .footer-links li:first-child {
+      padding-left: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="css/bootstrap-big-grid.min.css"/>
+
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bootstrap Big Grid</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="http://getbootstrap.com/css/#grid">Bootstrap Grid Docs</a></li>
+          <li><a href="https://github.com/BenWhitehead/bootstrap-big-grid">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Big Grid</h1>
+        <p>
+          The default Bootstrap Grid only provides grid dimensions up to 1200px. Using the same mixins and
+          variables provided by Bootstrap, the grid has been extended to support various larger resolution
+          screens, such as HDTVs and the 15" Retina MacBook Pro.
+        </p>
+        <p>
+          Please consult the original Bootstrap Grid <a href="http://getbootstrap.com/css/#grid">docs</a>
+          for an introduction to the Bootstrap Grid and its usage.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Grid Options</h3>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th></th>
+                <th>
+                  720p TV
+                  <small>≥1366px</small>
+                </th>
+                <th>
+                  1080p TV
+                  <small>≥1920px</small>
+                </th>
+                <th>
+                  1440p TV
+                  <small>≥2560px</small>
+                </th>
+                <th>
+                  15" Retina MacBook Pro
+                  <small>≥2880px</small>
+                </th>
+                <th>
+                  4K TV
+                  <small>≥4096px</small>
+                </th>
+                <th>
+                  8K TV
+                  <small>≥8192px</small>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Grid behavior</th>
+                <td colspan="6">Collapsed to start, horizontal above breakpoints</td>
+              </tr>
+              <!--
+                            <tr>
+                              <th>Max container width</th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+              -->
+              <tr>
+                <th>Class prefix</th>
+                <td><code>.col-tv720p-</code></td>
+                <td><code>.col-tv1080p-</code></td>
+                <td><code>.col-tv1440p-</code></td>
+                <td><code>.col-retina15-</code></td>
+                <td><code>.col-tv4k-</code></td>
+                <td><code>.col-tv8k-</code></td>
+              </tr>
+              <tr>
+                <th># of columns</th>
+                <td colspan="6">12</td>
+              </tr>
+              <!--
+                            <tr>
+                              <th>Max column width</th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+              -->
+              <tr>
+                <th>Gutter width</th>
+                <td colspan="6">30px (15px on each side of a column)</td>
+              </tr>
+              <tr>
+                <th>Nestable</th>
+                <td colspan="6">Yes</td>
+              </tr>
+              <tr>
+                <th>Offsets</th>
+                <td colspan="6">Yes</td>
+              </tr>
+              <tr>
+                <th>Column ordering</th>
+                <td colspan="6">Yes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Responsive Utilities</h1>
+        <p>
+          Please consult the original Bootstrap Responsive Utilities <a href="http://getbootstrap.com/css/#responsive-utilities">docs</a>
+          for description and usage guidelines.
+        </p>
+        <h2>Available Classes</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped responsive-utilities">
+            <thead>
+              <tr>
+                <th></th>
+                <th>
+                  720p TV
+                  <small>≥1366px</small>
+                </th>
+                <th>
+                  1080p TV
+                  <small>≥1920px</small>
+                </th>
+                <th>
+                  1440p TV
+                  <small>≥2560px</small>
+                </th>
+                <th>
+                  15" Retina MacBook Pro
+                  <small>≥2880px</small>
+                </th>
+                <th>
+                  4K TV
+                  <small>≥4096px</small>
+                </th>
+                <th>
+                  8K TV
+                  <small>≥8192px</small>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>.visible-tv720p</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tv1080p</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tv1440p</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-retina15</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tv4k</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tv4k</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <th><code>.hidden-tv720p</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tv1080p</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tv1440p</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-retina15</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tv4k</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tv8k</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="responsive-utilities-tests">Test cases</h2>
+        <p>Resize your browser or load on different devices to test the responsive utility classes.</p>
+
+        <h3>Visible on...</h3>
+        <p>Green checkmarks indicate the element <strong>is visible</strong> in your current viewport.</p>
+        <div class="row responsive-utilities-test visible-on">
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv720p">720p</span>
+            <span class="visible-tv720p">&#10004; Visible on 720p</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv1080p">1080p</span>
+            <span class="visible-tv1080p">&#10004; Visible on 1080p</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv1440p">1440p</span>
+            <span class="visible-tv1440p">&#10004; Visible on 1440p</span>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-retina15">Retina 15"</span>
+            <span class="visible-retina15">&#10004; Visible on Retina 15"</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv4k">4k</span>
+            <span class="visible-tv4k">&#10004; Visible on 4k</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv8k">8k</span>
+            <span class="visible-tv8k">&#10004; Visible on 8k</span>
+          </div>
+        </div>
+
+        <h3>Hidden on...</h3>
+        <p>Here, green checkmarks also indicate the element <strong>is hidden</strong> in your current viewport.</p>
+        <div class="row responsive-utilities-test hidden-on">
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv720p">720p</span>
+            <span class="visible-tv720p">&#10004; Visible on 720p</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv1080p">1080p</span>
+            <span class="visible-tv1080p">&#10004; Visible on 1080p</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv1440p">1440p</span>
+            <span class="visible-tv1440p">&#10004; Visible on 1440p</span>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-retina15">Retina 15"</span>
+            <span class="visible-retina15">&#10004; Visible on Retina 15"</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv4k">4k</span>
+            <span class="visible-tv4k">&#10004; Visible on 4k</span>
+          </div>
+          <div class="col-xs-4 col-sm-2">
+            <span class="hidden-tv8k">8k</span>
+            <span class="visible-tv8k">&#10004; Visible on 8k</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>,
+            documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+          </p>
+          <ul class="footer-links">
+            <li>Currently v0.1.0 (Bootstrap v3.0.2)</li>
+            <li class="muted">·</li>
+            <li><a href="http://getbootstrap.com/">Bootstrap Docs</a></li>
+            <li class="muted">·</li>
+            <li><a href="https://github.com/BenWhitehead/bootstrap-big-grid/issues?state=open">Issues</a></li>
+            <li class="muted">·</li>
+            <li><a href="https://github.com/BenWhitehead/bootstrap-big-grid/releases">Releases</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+</body>
+</html>
