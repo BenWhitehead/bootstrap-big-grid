@@ -39,6 +39,13 @@ New Classes
 `.visible-tv4k`  
 `.visible-tv8k`  
 
+`.hidden-tv720p`  
+`.hidden-tv1080p`  
+`.hidden-tv1440p`  
+`.hidden-retina15`  
+`.hidden-tv4k`  
+`.hidden-tv8k`  
+
 Copyright and License
 =====================
 Copyright 2013 Ben Whitehead under the Apache 2.0 license.
