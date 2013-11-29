@@ -3,9 +3,16 @@ Bootstrap Big Grid
 
 A set of larger grid options for Bootstrap.
 
+Documentation and Tests
+=======================
+http://benwhitehead.github.io/bootstrap-big-grid/
+
 Motivation
-----------
+==========
 Bootstraps Grid only provides a grid up to 1200px wide, this project provides more grids for common higher resolutions all the way up to 8K.
+
+New Classes
+===========
 
 ### New Grid Classes
 `.col-tv720p-`    : 1366 x 768  
