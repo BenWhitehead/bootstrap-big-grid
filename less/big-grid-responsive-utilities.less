@@ -1,0 +1,1036 @@
+@import "../bower_components/bootstrap/less/mixins";
+@import "big-grid-variables";
+
+// Visibility utilities
+
+.visible-xs {
+  .responsive-invisibility();
+  @media (max-width: @screen-xs-max) {
+    .responsive-visibility();
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-sm {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .responsive-visibility();
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-md {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .responsive-visibility();
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-lg {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+    .responsive-visibility();
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-tv720p {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+    .responsive-visibility();
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-tv1080p {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+    .responsive-visibility();
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-tv1440p {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+    .responsive-visibility();
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-retina15 {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+    .responsive-visibility();
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-tv4k {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+    .responsive-visibility();
+  }
+  &.visible-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-visibility();
+    }
+  }
+}
+
+.visible-tv8k {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: @screen-tv8k-min) {
+    .responsive-visibility();
+  }
+}
+
+// Hidden Utilities
+.hidden-xs {
+  .responsive-visibility();
+  @media (max-width: @screen-xs-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-sm {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-md {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-lg {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-tv720p {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-tv1080p {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-tv1440p {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-retina15 {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-tv4k {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-tv8k {
+    @media (min-width: @screen-tv8k-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-tv8k {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: @screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv720p {
+    @media (min-width: @screen-tv720p-min) and (max-width: @screen-tv720p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1080p {
+    @media (min-width: @screen-tv1080p-min) and (max-width: @screen-tv1080p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv1440p {
+    @media (min-width: @screen-tv1440p-min) and (max-width: @screen-tv1440p-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-retina15 {
+    @media (min-width: @screen-retina15-min) and (max-width: @screen-retina15-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-tv4k {
+    @media (min-width: @screen-tv4k-min) and (max-width: @screen-tv4k-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: @screen-tv8k-min) {
+    .responsive-invisibility();
+  }
+}

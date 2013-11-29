@@ -1,0 +1,33 @@
+@import "../bower_components/bootstrap/less/variables";
+
+@screen-tv720p-min: 1366px;
+
+@screen-tv1080p-min: 1920px;
+
+@screen-tv1440p-min: 2560px;
+
+@screen-retina15-min: 2880px;
+
+@screen-tv4k-min: 4096px;
+
+@screen-tv8k-min: 8192px;
+
+@screen-lg-max:                     (@screen-tv720p-min - 1);
+@screen-tv720p-max:                 (@screen-tv1080p-min - 1);
+@screen-tv1080p-max:                (@screen-tv1440p-min - 1);
+@screen-tv1440p-max:                (@screen-retina15-min - 1);
+@screen-retina15-max:               (@screen-tv4k-min - 1);
+@screen-tv4k-max:                   (@screen-tv8k-min - 1);
+
+@container-tv720p-desktop:            ((1306px + @grid-gutter-width));
+@container-tv720p:                    @container-tv720p-desktop;
+@container-tv1080p-desktop:           ((1860px + @grid-gutter-width));
+@container-tv1080p:                   @container-tv1080p-desktop;
+@container-tv1440p-desktop:           ((2500px + @grid-gutter-width));
+@container-tv1440p:                   @container-tv1440p-desktop;
+@container-retina15-desktop:          ((2820px + @grid-gutter-width));
+@container-retina15:                  @container-retina15-desktop;
+@container-tv4k-desktop:              ((4036px + @grid-gutter-width));
+@container-tv4k:                      @container-tv4k-desktop;
+@container-tv8k-desktop:              ((8132px + @grid-gutter-width));
+@container-tv8k:                      @container-tv8k-desktop;
