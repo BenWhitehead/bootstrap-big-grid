@@ -11,6 +11,15 @@ Motivation
 ==========
 Bootstraps Grid only provides a grid up to 1200px wide, this project provides more grids for common higher resolutions all the way up to 8K.
 
+Usage
+=====
+The easiest way to use Bootstrap Big Grid is with Bower
+```bash
+bower install --save bootstrap-big-grid
+```
+
+Alternatively download a [release](https://github.com/BenWhitehead/bootstrap-big-grid/releases) and use the css files in the dist directory.
+
 New Classes
 ===========
 
