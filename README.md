@@ -20,6 +20,13 @@ bower install --save bootstrap-big-grid
 
 Alternatively download a [release](https://github.com/BenWhitehead/bootstrap-big-grid/releases) and use the css files in the dist directory.
 
+Then link it into your page after the main bootstrap css
+
+```html
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="bower_components/bootstrap-big-grid/dist/css/bootstrap-big-grid.min.css"/>
+```
+
 New Classes
 ===========
 
