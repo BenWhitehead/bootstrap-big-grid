@@ -7,7 +7,7 @@
   .container {
     width: 1336px;
   }
-  .col-tv720p-1, .col-tv720p-2, .col-tv720p-3, .col-tv720p-4, .col-tv720p-5, .col-tv720p-6, .col-tv720p-7, .col-tv720p-8, .col-tv720p-9, .col-tv720p-10, .col-tv720p-11 {
+  .col-tv720p-1, .col-tv720p-2, .col-tv720p-3, .col-tv720p-4, .col-tv720p-5, .col-tv720p-6, .col-tv720p-7, .col-tv720p-8, .col-tv720p-9, .col-tv720p-10, .col-tv720p-11, .col-tv720p-12 {
     float: left;
   }
   .col-tv720p-12 {
@@ -168,7 +168,7 @@
   .container {
     width: 1890px;
   }
-  .col-tv1080p-1, .col-tv1080p-2, .col-tv1080p-3, .col-tv1080p-4, .col-tv1080p-5, .col-tv1080p-6, .col-tv1080p-7, .col-tv1080p-8, .col-tv1080p-9, .col-tv1080p-10, .col-tv1080p-11 {
+  .col-tv1080p-1, .col-tv1080p-2, .col-tv1080p-3, .col-tv1080p-4, .col-tv1080p-5, .col-tv1080p-6, .col-tv1080p-7, .col-tv1080p-8, .col-tv1080p-9, .col-tv1080p-10, .col-tv1080p-11, .col-tv1080p-12 {
     float: left;
   }
   .col-tv1080p-12 {
@@ -329,7 +329,7 @@
   .container {
     width: 2530px;
   }
-  .col-tv1440p-1, .col-tv1440p-2, .col-tv1440p-3, .col-tv1440p-4, .col-tv1440p-5, .col-tv1440p-6, .col-tv1440p-7, .col-tv1440p-8, .col-tv1440p-9, .col-tv1440p-10, .col-tv1440p-11 {
+  .col-tv1440p-1, .col-tv1440p-2, .col-tv1440p-3, .col-tv1440p-4, .col-tv1440p-5, .col-tv1440p-6, .col-tv1440p-7, .col-tv1440p-8, .col-tv1440p-9, .col-tv1440p-10, .col-tv1440p-11, .col-tv1440p-12 {
     float: left;
   }
   .col-tv1440p-12 {
@@ -490,7 +490,7 @@
   .container {
     width: 2850px;
   }
-  .col-retina15-1, .col-retina15-2, .col-retina15-3, .col-retina15-4, .col-retina15-5, .col-retina15-6, .col-retina15-7, .col-retina15-8, .col-retina15-9, .col-retina15-10, .col-retina15-11 {
+  .col-retina15-1, .col-retina15-2, .col-retina15-3, .col-retina15-4, .col-retina15-5, .col-retina15-6, .col-retina15-7, .col-retina15-8, .col-retina15-9, .col-retina15-10, .col-retina15-11, .col-retina15-12 {
     float: left;
   }
   .col-retina15-12 {
@@ -651,7 +651,7 @@
   .container {
     width: 4066px;
   }
-  .col-tv4k-1, .col-tv4k-2, .col-tv4k-3, .col-tv4k-4, .col-tv4k-5, .col-tv4k-6, .col-tv4k-7, .col-tv4k-8, .col-tv4k-9, .col-tv4k-10, .col-tv4k-11 {
+  .col-tv4k-1, .col-tv4k-2, .col-tv4k-3, .col-tv4k-4, .col-tv4k-5, .col-tv4k-6, .col-tv4k-7, .col-tv4k-8, .col-tv4k-9, .col-tv4k-10, .col-tv4k-11, .col-tv4k-12 {
     float: left;
   }
   .col-tv4k-12 {
@@ -812,7 +812,7 @@
   .container {
     width: 8162px;
   }
-  .col-tv8k-1, .col-tv8k-2, .col-tv8k-3, .col-tv8k-4, .col-tv8k-5, .col-tv8k-6, .col-tv8k-7, .col-tv8k-8, .col-tv8k-9, .col-tv8k-10, .col-tv8k-11 {
+  .col-tv8k-1, .col-tv8k-2, .col-tv8k-3, .col-tv8k-4, .col-tv8k-5, .col-tv8k-6, .col-tv8k-7, .col-tv8k-8, .col-tv8k-9, .col-tv8k-10, .col-tv8k-11, .col-tv8k-12 {
     float: left;
   }
   .col-tv8k-12 {
@@ -979,6 +979,9 @@ td.visible-xs {
   .visible-xs {
     display: block !important;
   }
+  table.visible-xs {
+    display: table;
+  }
   tr.visible-xs {
     display: table-row !important;
   }
@@ -990,6 +993,9 @@ td.visible-xs {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-xs.visible-sm {
     display: block !important;
+  }
+  table.visible-xs.visible-sm {
+    display: table;
   }
   tr.visible-xs.visible-sm {
     display: table-row !important;
@@ -1003,6 +1009,9 @@ td.visible-xs {
   .visible-xs.visible-md {
     display: block !important;
   }
+  table.visible-xs.visible-md {
+    display: table;
+  }
   tr.visible-xs.visible-md {
     display: table-row !important;
   }
@@ -1014,6 +1023,9 @@ td.visible-xs {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-xs.visible-lg {
     display: block !important;
+  }
+  table.visible-xs.visible-lg {
+    display: table;
   }
   tr.visible-xs.visible-lg {
     display: table-row !important;
@@ -1027,6 +1039,9 @@ td.visible-xs {
   .visible-xs.visible-tv720p {
     display: block !important;
   }
+  table.visible-xs.visible-tv720p {
+    display: table;
+  }
   tr.visible-xs.visible-tv720p {
     display: table-row !important;
   }
@@ -1038,6 +1053,9 @@ td.visible-xs {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-xs.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-xs.visible-tv1080p {
+    display: table;
   }
   tr.visible-xs.visible-tv1080p {
     display: table-row !important;
@@ -1051,6 +1069,9 @@ td.visible-xs {
   .visible-xs.visible-tv1440p {
     display: block !important;
   }
+  table.visible-xs.visible-tv1440p {
+    display: table;
+  }
   tr.visible-xs.visible-tv1440p {
     display: table-row !important;
   }
@@ -1062,6 +1083,9 @@ td.visible-xs {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-xs.visible-retina15 {
     display: block !important;
+  }
+  table.visible-xs.visible-retina15 {
+    display: table;
   }
   tr.visible-xs.visible-retina15 {
     display: table-row !important;
@@ -1075,6 +1099,9 @@ td.visible-xs {
   .visible-xs.visible-tv4k {
     display: block !important;
   }
+  table.visible-xs.visible-tv4k {
+    display: table;
+  }
   tr.visible-xs.visible-tv4k {
     display: table-row !important;
   }
@@ -1086,6 +1113,9 @@ td.visible-xs {
 @media (min-width: 8192px) {
   .visible-xs.visible-tv8k {
     display: block !important;
+  }
+  table.visible-xs.visible-tv8k {
+    display: table;
   }
   tr.visible-xs.visible-tv8k {
     display: table-row !important;
@@ -1105,6 +1135,9 @@ td.visible-sm {
   .visible-sm.visible-xs {
     display: block !important;
   }
+  table.visible-sm.visible-xs {
+    display: table;
+  }
   tr.visible-sm.visible-xs {
     display: table-row !important;
   }
@@ -1116,6 +1149,9 @@ td.visible-sm {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block !important;
+  }
+  table.visible-sm {
+    display: table;
   }
   tr.visible-sm {
     display: table-row !important;
@@ -1129,6 +1165,9 @@ td.visible-sm {
   .visible-sm.visible-md {
     display: block !important;
   }
+  table.visible-sm.visible-md {
+    display: table;
+  }
   tr.visible-sm.visible-md {
     display: table-row !important;
   }
@@ -1140,6 +1179,9 @@ td.visible-sm {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-sm.visible-lg {
     display: block !important;
+  }
+  table.visible-sm.visible-lg {
+    display: table;
   }
   tr.visible-sm.visible-lg {
     display: table-row !important;
@@ -1153,6 +1195,9 @@ td.visible-sm {
   .visible-sm.visible-tv720p {
     display: block !important;
   }
+  table.visible-sm.visible-tv720p {
+    display: table;
+  }
   tr.visible-sm.visible-tv720p {
     display: table-row !important;
   }
@@ -1164,6 +1209,9 @@ td.visible-sm {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-sm.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-sm.visible-tv1080p {
+    display: table;
   }
   tr.visible-sm.visible-tv1080p {
     display: table-row !important;
@@ -1177,6 +1225,9 @@ td.visible-sm {
   .visible-sm.visible-tv1440p {
     display: block !important;
   }
+  table.visible-sm.visible-tv1440p {
+    display: table;
+  }
   tr.visible-sm.visible-tv1440p {
     display: table-row !important;
   }
@@ -1188,6 +1239,9 @@ td.visible-sm {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-sm.visible-retina15 {
     display: block !important;
+  }
+  table.visible-sm.visible-retina15 {
+    display: table;
   }
   tr.visible-sm.visible-retina15 {
     display: table-row !important;
@@ -1201,6 +1255,9 @@ td.visible-sm {
   .visible-sm.visible-tv4k {
     display: block !important;
   }
+  table.visible-sm.visible-tv4k {
+    display: table;
+  }
   tr.visible-sm.visible-tv4k {
     display: table-row !important;
   }
@@ -1212,6 +1269,9 @@ td.visible-sm {
 @media (min-width: 8192px) {
   .visible-sm.visible-tv8k {
     display: block !important;
+  }
+  table.visible-sm.visible-tv8k {
+    display: table;
   }
   tr.visible-sm.visible-tv8k {
     display: table-row !important;
@@ -1231,6 +1291,9 @@ td.visible-md {
   .visible-md.visible-xs {
     display: block !important;
   }
+  table.visible-md.visible-xs {
+    display: table;
+  }
   tr.visible-md.visible-xs {
     display: table-row !important;
   }
@@ -1242,6 +1305,9 @@ td.visible-md {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-md.visible-sm {
     display: block !important;
+  }
+  table.visible-md.visible-sm {
+    display: table;
   }
   tr.visible-md.visible-sm {
     display: table-row !important;
@@ -1255,6 +1321,9 @@ td.visible-md {
   .visible-md {
     display: block !important;
   }
+  table.visible-md {
+    display: table;
+  }
   tr.visible-md {
     display: table-row !important;
   }
@@ -1266,6 +1335,9 @@ td.visible-md {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-md.visible-lg {
     display: block !important;
+  }
+  table.visible-md.visible-lg {
+    display: table;
   }
   tr.visible-md.visible-lg {
     display: table-row !important;
@@ -1279,6 +1351,9 @@ td.visible-md {
   .visible-md.visible-tv720p {
     display: block !important;
   }
+  table.visible-md.visible-tv720p {
+    display: table;
+  }
   tr.visible-md.visible-tv720p {
     display: table-row !important;
   }
@@ -1290,6 +1365,9 @@ td.visible-md {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-md.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-md.visible-tv1080p {
+    display: table;
   }
   tr.visible-md.visible-tv1080p {
     display: table-row !important;
@@ -1303,6 +1381,9 @@ td.visible-md {
   .visible-md.visible-tv1440p {
     display: block !important;
   }
+  table.visible-md.visible-tv1440p {
+    display: table;
+  }
   tr.visible-md.visible-tv1440p {
     display: table-row !important;
   }
@@ -1314,6 +1395,9 @@ td.visible-md {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-md.visible-retina15 {
     display: block !important;
+  }
+  table.visible-md.visible-retina15 {
+    display: table;
   }
   tr.visible-md.visible-retina15 {
     display: table-row !important;
@@ -1327,6 +1411,9 @@ td.visible-md {
   .visible-md.visible-tv4k {
     display: block !important;
   }
+  table.visible-md.visible-tv4k {
+    display: table;
+  }
   tr.visible-md.visible-tv4k {
     display: table-row !important;
   }
@@ -1338,6 +1425,9 @@ td.visible-md {
 @media (min-width: 8192px) {
   .visible-md.visible-tv8k {
     display: block !important;
+  }
+  table.visible-md.visible-tv8k {
+    display: table;
   }
   tr.visible-md.visible-tv8k {
     display: table-row !important;
@@ -1357,6 +1447,9 @@ td.visible-lg {
   .visible-lg.visible-xs {
     display: block !important;
   }
+  table.visible-lg.visible-xs {
+    display: table;
+  }
   tr.visible-lg.visible-xs {
     display: table-row !important;
   }
@@ -1368,6 +1461,9 @@ td.visible-lg {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-lg.visible-sm {
     display: block !important;
+  }
+  table.visible-lg.visible-sm {
+    display: table;
   }
   tr.visible-lg.visible-sm {
     display: table-row !important;
@@ -1381,6 +1477,9 @@ td.visible-lg {
   .visible-lg.visible-md {
     display: block !important;
   }
+  table.visible-lg.visible-md {
+    display: table;
+  }
   tr.visible-lg.visible-md {
     display: table-row !important;
   }
@@ -1392,6 +1491,9 @@ td.visible-lg {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-lg {
     display: block !important;
+  }
+  table.visible-lg {
+    display: table;
   }
   tr.visible-lg {
     display: table-row !important;
@@ -1405,6 +1507,9 @@ td.visible-lg {
   .visible-lg.visible-tv720p {
     display: block !important;
   }
+  table.visible-lg.visible-tv720p {
+    display: table;
+  }
   tr.visible-lg.visible-tv720p {
     display: table-row !important;
   }
@@ -1416,6 +1521,9 @@ td.visible-lg {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-lg.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-lg.visible-tv1080p {
+    display: table;
   }
   tr.visible-lg.visible-tv1080p {
     display: table-row !important;
@@ -1429,6 +1537,9 @@ td.visible-lg {
   .visible-lg.visible-tv1440p {
     display: block !important;
   }
+  table.visible-lg.visible-tv1440p {
+    display: table;
+  }
   tr.visible-lg.visible-tv1440p {
     display: table-row !important;
   }
@@ -1440,6 +1551,9 @@ td.visible-lg {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-lg.visible-retina15 {
     display: block !important;
+  }
+  table.visible-lg.visible-retina15 {
+    display: table;
   }
   tr.visible-lg.visible-retina15 {
     display: table-row !important;
@@ -1453,6 +1567,9 @@ td.visible-lg {
   .visible-lg.visible-tv4k {
     display: block !important;
   }
+  table.visible-lg.visible-tv4k {
+    display: table;
+  }
   tr.visible-lg.visible-tv4k {
     display: table-row !important;
   }
@@ -1464,6 +1581,9 @@ td.visible-lg {
 @media (min-width: 8192px) {
   .visible-lg.visible-tv8k {
     display: block !important;
+  }
+  table.visible-lg.visible-tv8k {
+    display: table;
   }
   tr.visible-lg.visible-tv8k {
     display: table-row !important;
@@ -1483,6 +1603,9 @@ td.visible-tv720p {
   .visible-tv720p.visible-xs {
     display: block !important;
   }
+  table.visible-tv720p.visible-xs {
+    display: table;
+  }
   tr.visible-tv720p.visible-xs {
     display: table-row !important;
   }
@@ -1494,6 +1617,9 @@ td.visible-tv720p {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-tv720p.visible-sm {
     display: block !important;
+  }
+  table.visible-tv720p.visible-sm {
+    display: table;
   }
   tr.visible-tv720p.visible-sm {
     display: table-row !important;
@@ -1507,6 +1633,9 @@ td.visible-tv720p {
   .visible-tv720p.visible-md {
     display: block !important;
   }
+  table.visible-tv720p.visible-md {
+    display: table;
+  }
   tr.visible-tv720p.visible-md {
     display: table-row !important;
   }
@@ -1518,6 +1647,9 @@ td.visible-tv720p {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-tv720p.visible-lg {
     display: block !important;
+  }
+  table.visible-tv720p.visible-lg {
+    display: table;
   }
   tr.visible-tv720p.visible-lg {
     display: table-row !important;
@@ -1531,6 +1663,9 @@ td.visible-tv720p {
   .visible-tv720p {
     display: block !important;
   }
+  table.visible-tv720p {
+    display: table;
+  }
   tr.visible-tv720p {
     display: table-row !important;
   }
@@ -1542,6 +1677,9 @@ td.visible-tv720p {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-tv720p.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-tv720p.visible-tv1080p {
+    display: table;
   }
   tr.visible-tv720p.visible-tv1080p {
     display: table-row !important;
@@ -1555,6 +1693,9 @@ td.visible-tv720p {
   .visible-tv720p.visible-tv1440p {
     display: block !important;
   }
+  table.visible-tv720p.visible-tv1440p {
+    display: table;
+  }
   tr.visible-tv720p.visible-tv1440p {
     display: table-row !important;
   }
@@ -1566,6 +1707,9 @@ td.visible-tv720p {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-tv720p.visible-retina15 {
     display: block !important;
+  }
+  table.visible-tv720p.visible-retina15 {
+    display: table;
   }
   tr.visible-tv720p.visible-retina15 {
     display: table-row !important;
@@ -1579,6 +1723,9 @@ td.visible-tv720p {
   .visible-tv720p.visible-tv4k {
     display: block !important;
   }
+  table.visible-tv720p.visible-tv4k {
+    display: table;
+  }
   tr.visible-tv720p.visible-tv4k {
     display: table-row !important;
   }
@@ -1590,6 +1737,9 @@ td.visible-tv720p {
 @media (min-width: 8192px) {
   .visible-tv720p.visible-tv8k {
     display: block !important;
+  }
+  table.visible-tv720p.visible-tv8k {
+    display: table;
   }
   tr.visible-tv720p.visible-tv8k {
     display: table-row !important;
@@ -1609,6 +1759,9 @@ td.visible-tv1080p {
   .visible-tv1080p.visible-xs {
     display: block !important;
   }
+  table.visible-tv1080p.visible-xs {
+    display: table;
+  }
   tr.visible-tv1080p.visible-xs {
     display: table-row !important;
   }
@@ -1620,6 +1773,9 @@ td.visible-tv1080p {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-tv1080p.visible-sm {
     display: block !important;
+  }
+  table.visible-tv1080p.visible-sm {
+    display: table;
   }
   tr.visible-tv1080p.visible-sm {
     display: table-row !important;
@@ -1633,6 +1789,9 @@ td.visible-tv1080p {
   .visible-tv1080p.visible-md {
     display: block !important;
   }
+  table.visible-tv1080p.visible-md {
+    display: table;
+  }
   tr.visible-tv1080p.visible-md {
     display: table-row !important;
   }
@@ -1644,6 +1803,9 @@ td.visible-tv1080p {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-tv1080p.visible-lg {
     display: block !important;
+  }
+  table.visible-tv1080p.visible-lg {
+    display: table;
   }
   tr.visible-tv1080p.visible-lg {
     display: table-row !important;
@@ -1657,6 +1819,9 @@ td.visible-tv1080p {
   .visible-tv1080p.visible-tv720p {
     display: block !important;
   }
+  table.visible-tv1080p.visible-tv720p {
+    display: table;
+  }
   tr.visible-tv1080p.visible-tv720p {
     display: table-row !important;
   }
@@ -1668,6 +1833,9 @@ td.visible-tv1080p {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-tv1080p {
     display: block !important;
+  }
+  table.visible-tv1080p {
+    display: table;
   }
   tr.visible-tv1080p {
     display: table-row !important;
@@ -1681,6 +1849,9 @@ td.visible-tv1080p {
   .visible-tv1080p.visible-tv1440p {
     display: block !important;
   }
+  table.visible-tv1080p.visible-tv1440p {
+    display: table;
+  }
   tr.visible-tv1080p.visible-tv1440p {
     display: table-row !important;
   }
@@ -1692,6 +1863,9 @@ td.visible-tv1080p {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-tv1080p.visible-retina15 {
     display: block !important;
+  }
+  table.visible-tv1080p.visible-retina15 {
+    display: table;
   }
   tr.visible-tv1080p.visible-retina15 {
     display: table-row !important;
@@ -1705,6 +1879,9 @@ td.visible-tv1080p {
   .visible-tv1080p.visible-tv4k {
     display: block !important;
   }
+  table.visible-tv1080p.visible-tv4k {
+    display: table;
+  }
   tr.visible-tv1080p.visible-tv4k {
     display: table-row !important;
   }
@@ -1716,6 +1893,9 @@ td.visible-tv1080p {
 @media (min-width: 8192px) {
   .visible-tv1080p.visible-tv8k {
     display: block !important;
+  }
+  table.visible-tv1080p.visible-tv8k {
+    display: table;
   }
   tr.visible-tv1080p.visible-tv8k {
     display: table-row !important;
@@ -1735,6 +1915,9 @@ td.visible-tv1440p {
   .visible-tv1440p.visible-xs {
     display: block !important;
   }
+  table.visible-tv1440p.visible-xs {
+    display: table;
+  }
   tr.visible-tv1440p.visible-xs {
     display: table-row !important;
   }
@@ -1746,6 +1929,9 @@ td.visible-tv1440p {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-tv1440p.visible-sm {
     display: block !important;
+  }
+  table.visible-tv1440p.visible-sm {
+    display: table;
   }
   tr.visible-tv1440p.visible-sm {
     display: table-row !important;
@@ -1759,6 +1945,9 @@ td.visible-tv1440p {
   .visible-tv1440p.visible-md {
     display: block !important;
   }
+  table.visible-tv1440p.visible-md {
+    display: table;
+  }
   tr.visible-tv1440p.visible-md {
     display: table-row !important;
   }
@@ -1770,6 +1959,9 @@ td.visible-tv1440p {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-tv1440p.visible-lg {
     display: block !important;
+  }
+  table.visible-tv1440p.visible-lg {
+    display: table;
   }
   tr.visible-tv1440p.visible-lg {
     display: table-row !important;
@@ -1783,6 +1975,9 @@ td.visible-tv1440p {
   .visible-tv1440p.visible-tv720p {
     display: block !important;
   }
+  table.visible-tv1440p.visible-tv720p {
+    display: table;
+  }
   tr.visible-tv1440p.visible-tv720p {
     display: table-row !important;
   }
@@ -1794,6 +1989,9 @@ td.visible-tv1440p {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-tv1440p.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-tv1440p.visible-tv1080p {
+    display: table;
   }
   tr.visible-tv1440p.visible-tv1080p {
     display: table-row !important;
@@ -1807,6 +2005,9 @@ td.visible-tv1440p {
   .visible-tv1440p {
     display: block !important;
   }
+  table.visible-tv1440p {
+    display: table;
+  }
   tr.visible-tv1440p {
     display: table-row !important;
   }
@@ -1818,6 +2019,9 @@ td.visible-tv1440p {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-tv1440p.visible-retina15 {
     display: block !important;
+  }
+  table.visible-tv1440p.visible-retina15 {
+    display: table;
   }
   tr.visible-tv1440p.visible-retina15 {
     display: table-row !important;
@@ -1831,6 +2035,9 @@ td.visible-tv1440p {
   .visible-tv1440p.visible-tv4k {
     display: block !important;
   }
+  table.visible-tv1440p.visible-tv4k {
+    display: table;
+  }
   tr.visible-tv1440p.visible-tv4k {
     display: table-row !important;
   }
@@ -1842,6 +2049,9 @@ td.visible-tv1440p {
 @media (min-width: 8192px) {
   .visible-tv1440p.visible-tv8k {
     display: block !important;
+  }
+  table.visible-tv1440p.visible-tv8k {
+    display: table;
   }
   tr.visible-tv1440p.visible-tv8k {
     display: table-row !important;
@@ -1861,6 +2071,9 @@ td.visible-retina15 {
   .visible-retina15.visible-xs {
     display: block !important;
   }
+  table.visible-retina15.visible-xs {
+    display: table;
+  }
   tr.visible-retina15.visible-xs {
     display: table-row !important;
   }
@@ -1872,6 +2085,9 @@ td.visible-retina15 {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-retina15.visible-sm {
     display: block !important;
+  }
+  table.visible-retina15.visible-sm {
+    display: table;
   }
   tr.visible-retina15.visible-sm {
     display: table-row !important;
@@ -1885,6 +2101,9 @@ td.visible-retina15 {
   .visible-retina15.visible-md {
     display: block !important;
   }
+  table.visible-retina15.visible-md {
+    display: table;
+  }
   tr.visible-retina15.visible-md {
     display: table-row !important;
   }
@@ -1896,6 +2115,9 @@ td.visible-retina15 {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-retina15.visible-lg {
     display: block !important;
+  }
+  table.visible-retina15.visible-lg {
+    display: table;
   }
   tr.visible-retina15.visible-lg {
     display: table-row !important;
@@ -1909,6 +2131,9 @@ td.visible-retina15 {
   .visible-retina15.visible-tv720p {
     display: block !important;
   }
+  table.visible-retina15.visible-tv720p {
+    display: table;
+  }
   tr.visible-retina15.visible-tv720p {
     display: table-row !important;
   }
@@ -1920,6 +2145,9 @@ td.visible-retina15 {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-retina15.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-retina15.visible-tv1080p {
+    display: table;
   }
   tr.visible-retina15.visible-tv1080p {
     display: table-row !important;
@@ -1933,6 +2161,9 @@ td.visible-retina15 {
   .visible-retina15.visible-tv1440p {
     display: block !important;
   }
+  table.visible-retina15.visible-tv1440p {
+    display: table;
+  }
   tr.visible-retina15.visible-tv1440p {
     display: table-row !important;
   }
@@ -1944,6 +2175,9 @@ td.visible-retina15 {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-retina15 {
     display: block !important;
+  }
+  table.visible-retina15 {
+    display: table;
   }
   tr.visible-retina15 {
     display: table-row !important;
@@ -1957,6 +2191,9 @@ td.visible-retina15 {
   .visible-retina15.visible-tv4k {
     display: block !important;
   }
+  table.visible-retina15.visible-tv4k {
+    display: table;
+  }
   tr.visible-retina15.visible-tv4k {
     display: table-row !important;
   }
@@ -1968,6 +2205,9 @@ td.visible-retina15 {
 @media (min-width: 8192px) {
   .visible-retina15.visible-tv8k {
     display: block !important;
+  }
+  table.visible-retina15.visible-tv8k {
+    display: table;
   }
   tr.visible-retina15.visible-tv8k {
     display: table-row !important;
@@ -1987,6 +2227,9 @@ td.visible-tv4k {
   .visible-tv4k.visible-xs {
     display: block !important;
   }
+  table.visible-tv4k.visible-xs {
+    display: table;
+  }
   tr.visible-tv4k.visible-xs {
     display: table-row !important;
   }
@@ -1998,6 +2241,9 @@ td.visible-tv4k {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-tv4k.visible-sm {
     display: block !important;
+  }
+  table.visible-tv4k.visible-sm {
+    display: table;
   }
   tr.visible-tv4k.visible-sm {
     display: table-row !important;
@@ -2011,6 +2257,9 @@ td.visible-tv4k {
   .visible-tv4k.visible-md {
     display: block !important;
   }
+  table.visible-tv4k.visible-md {
+    display: table;
+  }
   tr.visible-tv4k.visible-md {
     display: table-row !important;
   }
@@ -2022,6 +2271,9 @@ td.visible-tv4k {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-tv4k.visible-lg {
     display: block !important;
+  }
+  table.visible-tv4k.visible-lg {
+    display: table;
   }
   tr.visible-tv4k.visible-lg {
     display: table-row !important;
@@ -2035,6 +2287,9 @@ td.visible-tv4k {
   .visible-tv4k.visible-tv720p {
     display: block !important;
   }
+  table.visible-tv4k.visible-tv720p {
+    display: table;
+  }
   tr.visible-tv4k.visible-tv720p {
     display: table-row !important;
   }
@@ -2046,6 +2301,9 @@ td.visible-tv4k {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-tv4k.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-tv4k.visible-tv1080p {
+    display: table;
   }
   tr.visible-tv4k.visible-tv1080p {
     display: table-row !important;
@@ -2059,6 +2317,9 @@ td.visible-tv4k {
   .visible-tv4k.visible-tv1440p {
     display: block !important;
   }
+  table.visible-tv4k.visible-tv1440p {
+    display: table;
+  }
   tr.visible-tv4k.visible-tv1440p {
     display: table-row !important;
   }
@@ -2070,6 +2331,9 @@ td.visible-tv4k {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-tv4k.visible-retina15 {
     display: block !important;
+  }
+  table.visible-tv4k.visible-retina15 {
+    display: table;
   }
   tr.visible-tv4k.visible-retina15 {
     display: table-row !important;
@@ -2083,6 +2347,9 @@ td.visible-tv4k {
   .visible-tv4k {
     display: block !important;
   }
+  table.visible-tv4k {
+    display: table;
+  }
   tr.visible-tv4k {
     display: table-row !important;
   }
@@ -2094,6 +2361,9 @@ td.visible-tv4k {
 @media (min-width: 8192px) {
   .visible-tv4k.visible-tv8k {
     display: block !important;
+  }
+  table.visible-tv4k.visible-tv8k {
+    display: table;
   }
   tr.visible-tv4k.visible-tv8k {
     display: table-row !important;
@@ -2113,6 +2383,9 @@ td.visible-tv8k {
   .visible-tv8k.visible-xs {
     display: block !important;
   }
+  table.visible-tv8k.visible-xs {
+    display: table;
+  }
   tr.visible-tv8k.visible-xs {
     display: table-row !important;
   }
@@ -2124,6 +2397,9 @@ td.visible-tv8k {
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-tv8k.visible-sm {
     display: block !important;
+  }
+  table.visible-tv8k.visible-sm {
+    display: table;
   }
   tr.visible-tv8k.visible-sm {
     display: table-row !important;
@@ -2137,6 +2413,9 @@ td.visible-tv8k {
   .visible-tv8k.visible-md {
     display: block !important;
   }
+  table.visible-tv8k.visible-md {
+    display: table;
+  }
   tr.visible-tv8k.visible-md {
     display: table-row !important;
   }
@@ -2148,6 +2427,9 @@ td.visible-tv8k {
 @media (min-width: 1200px) and (max-width: 1365px) {
   .visible-tv8k.visible-lg {
     display: block !important;
+  }
+  table.visible-tv8k.visible-lg {
+    display: table;
   }
   tr.visible-tv8k.visible-lg {
     display: table-row !important;
@@ -2161,6 +2443,9 @@ td.visible-tv8k {
   .visible-tv8k.visible-tv720p {
     display: block !important;
   }
+  table.visible-tv8k.visible-tv720p {
+    display: table;
+  }
   tr.visible-tv8k.visible-tv720p {
     display: table-row !important;
   }
@@ -2172,6 +2457,9 @@ td.visible-tv8k {
 @media (min-width: 1920px) and (max-width: 2559px) {
   .visible-tv8k.visible-tv1080p {
     display: block !important;
+  }
+  table.visible-tv8k.visible-tv1080p {
+    display: table;
   }
   tr.visible-tv8k.visible-tv1080p {
     display: table-row !important;
@@ -2185,6 +2473,9 @@ td.visible-tv8k {
   .visible-tv8k.visible-tv1440p {
     display: block !important;
   }
+  table.visible-tv8k.visible-tv1440p {
+    display: table;
+  }
   tr.visible-tv8k.visible-tv1440p {
     display: table-row !important;
   }
@@ -2196,6 +2487,9 @@ td.visible-tv8k {
 @media (min-width: 2880px) and (max-width: 4095px) {
   .visible-tv8k.visible-retina15 {
     display: block !important;
+  }
+  table.visible-tv8k.visible-retina15 {
+    display: table;
   }
   tr.visible-tv8k.visible-retina15 {
     display: table-row !important;
@@ -2209,6 +2503,9 @@ td.visible-tv8k {
   .visible-tv8k.visible-tv4k {
     display: block !important;
   }
+  table.visible-tv8k.visible-tv4k {
+    display: table;
+  }
   tr.visible-tv8k.visible-tv4k {
     display: table-row !important;
   }
@@ -2221,6 +2518,9 @@ td.visible-tv8k {
   .visible-tv8k {
     display: block !important;
   }
+  table.visible-tv8k {
+    display: table;
+  }
   tr.visible-tv8k {
     display: table-row !important;
   }
@@ -2231,6 +2531,9 @@ td.visible-tv8k {
 }
 .hidden-xs {
   display: block !important;
+}
+table.hidden-xs {
+  display: table;
 }
 tr.hidden-xs {
   display: table-row !important;
@@ -2322,6 +2625,9 @@ td.hidden-xs {
 .hidden-sm {
   display: block !important;
 }
+table.hidden-sm {
+  display: table;
+}
 tr.hidden-sm {
   display: table-row !important;
 }
@@ -2411,6 +2717,9 @@ td.hidden-sm {
 }
 .hidden-md {
   display: block !important;
+}
+table.hidden-md {
+  display: table;
 }
 tr.hidden-md {
   display: table-row !important;
@@ -2502,6 +2811,9 @@ td.hidden-md {
 .hidden-lg {
   display: block !important;
 }
+table.hidden-lg {
+  display: table;
+}
 tr.hidden-lg {
   display: table-row !important;
 }
@@ -2591,6 +2903,9 @@ td.hidden-lg {
 }
 .hidden-tv720p {
   display: block !important;
+}
+table.hidden-tv720p {
+  display: table;
 }
 tr.hidden-tv720p {
   display: table-row !important;
@@ -2682,6 +2997,9 @@ td.hidden-tv720p {
 .hidden-tv1080p {
   display: block !important;
 }
+table.hidden-tv1080p {
+  display: table;
+}
 tr.hidden-tv1080p {
   display: table-row !important;
 }
@@ -2771,6 +3089,9 @@ td.hidden-tv1080p {
 }
 .hidden-tv1440p {
   display: block !important;
+}
+table.hidden-tv1440p {
+  display: table;
 }
 tr.hidden-tv1440p {
   display: table-row !important;
@@ -2862,6 +3183,9 @@ td.hidden-tv1440p {
 .hidden-retina15 {
   display: block !important;
 }
+table.hidden-retina15 {
+  display: table;
+}
 tr.hidden-retina15 {
   display: table-row !important;
 }
@@ -2952,6 +3276,9 @@ td.hidden-retina15 {
 .hidden-tv4k {
   display: block !important;
 }
+table.hidden-tv4k {
+  display: table;
+}
 tr.hidden-tv4k {
   display: table-row !important;
 }
@@ -3041,6 +3368,9 @@ td.hidden-tv4k {
 }
 .hidden-tv8k {
   display: block !important;
+}
+table.hidden-tv8k {
+  display: table;
 }
 tr.hidden-tv8k {
   display: table-row !important;
