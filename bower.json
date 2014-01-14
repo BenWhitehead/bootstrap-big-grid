@@ -6,6 +6,7 @@
   ],
   "description": "A set of larger grid options for Bootstrap.",
   "license": "Apache-2.0",
+  "main": "./dist/css/bootstrap-big-grid.css",
   "ignore": [
     "**/.*",
     "node_modules",
