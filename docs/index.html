@@ -31,7 +31,7 @@
       color: #468847;
       background-color: #dff0d8 !important;
     }
-    .responsive-utilities-test .col-xs-4 {
+    .responsive-utilities-test .col-xs-12 {
       margin-bottom: 10px;
     }
     .responsive-utilities-test span {
@@ -42,33 +42,37 @@
       text-align: center;
       border-radius: 4px;
     }
-    .visible-on .col-xs-4 .hidden-tv720p,
-    .visible-on .col-xs-4 .hidden-tv1080p,
-    .visible-on .col-xs-4 .hidden-tv1440p,
-    .visible-on .col-xs-4 .hidden-retina15,
-    .visible-on .col-xs-4 .hidden-tv4k,
-    .visible-on .col-xs-4 .hidden-tv8k,
-    .hidden-on .col-xs-4 .hidden-tv720p,
-    .hidden-on .col-xs-4 .hidden-tv1080p,
-    .hidden-on .col-xs-4 .hidden-tv1440p,
-    .hidden-on .col-xs-4 .hidden-retina15,
-    .hidden-on .col-xs-4 .hidden-tv4k,
-    .hidden-on .col-xs-4 .hidden-tv8k {
+    .visible-on .col-xs-12 .hidden-tv720p,
+    .visible-on .col-xs-12 .hidden-tv1080p,
+    .visible-on .col-xs-12 .hidden-tv1440p,
+    .visible-on .col-xs-12 .hidden-retina15,
+    .visible-on .col-xs-12 .hidden-tvUHD,
+    .visible-on .col-xs-12 .hidden-tv4k,
+    .visible-on .col-xs-12 .hidden-tv8k,
+    .hidden-on .col-xs-12 .hidden-tv720p,
+    .hidden-on .col-xs-12 .hidden-tv1080p,
+    .hidden-on .col-xs-12 .hidden-tv1440p,
+    .hidden-on .col-xs-12 .hidden-retina15,
+    .hidden-on .col-xs-12 .hidden-tvUHD,
+    .hidden-on .col-xs-12 .hidden-tv4k,
+    .hidden-on .col-xs-12 .hidden-tv8k {
       color: #999;
       border: 1px solid #ddd;
     }
-    .visible-on .col-xs-4 .visible-tv720p,
-    .visible-on .col-xs-4 .visible-tv1080p,
-    .visible-on .col-xs-4 .visible-tv1440p,
-    .visible-on .col-xs-4 .visible-retina15,
-    .visible-on .col-xs-4 .visible-tv4k,
-    .visible-on .col-xs-4 .visible-tv8k,
-    .hidden-on .col-xs-4 .visible-tv720p,
-    .hidden-on .col-xs-4 .visible-tv1080p,
-    .hidden-on .col-xs-4 .visible-tv1440p,
-    .hidden-on .col-xs-4 .visible-retina15,
-    .hidden-on .col-xs-4 .visible-tv4k,
-    .hidden-on .col-xs-4 .visible-tv8k {
+    .visible-on .col-xs-12 .visible-tv720p,
+    .visible-on .col-xs-12 .visible-tv1080p,
+    .visible-on .col-xs-12 .visible-tv1440p,
+    .visible-on .col-xs-12 .visible-retina15,
+    .visible-on .col-xs-12 .visible-tvUHD,
+    .visible-on .col-xs-12 .visible-tv4k,
+    .visible-on .col-xs-12 .visible-tv8k,
+    .hidden-on .col-xs-12 .visible-tv720p,
+    .hidden-on .col-xs-12 .visible-tv1080p,
+    .hidden-on .col-xs-12 .visible-tv1440p,
+    .hidden-on .col-xs-12 .visible-retina15,
+    .hidden-on .col-xs-12 .visible-tvUHD,
+    .hidden-on .col-xs-12 .visible-tv4k,
+    .hidden-on .col-xs-12 .visible-tv8k {
       color: #468847;
       background-color: #dff0d8;
       border: 1px solid #d6e9c6;
@@ -158,6 +162,10 @@
                   <small>≥2880px</small>
                 </th>
                 <th>
+                  UHD TV
+                  <small>≥3840px</small>
+                </th>
+                <th>
                   4K TV
                   <small>≥4096px</small>
                 </th>
@@ -170,7 +178,7 @@
             <tbody>
               <tr>
                 <th>Grid behavior</th>
-                <td colspan="6">Collapsed to start, horizontal above breakpoints</td>
+                <td colspan="7">Collapsed to start, horizontal above breakpoints</td>
               </tr>
 <!--
               <tr>
@@ -189,12 +197,13 @@
                 <td><code>.col-tv1080p-</code></td>
                 <td><code>.col-tv1440p-</code></td>
                 <td><code>.col-retina15-</code></td>
+                <td><code>.col-tvUHD-</code></td>
                 <td><code>.col-tv4k-</code></td>
                 <td><code>.col-tv8k-</code></td>
               </tr>
               <tr>
                 <th># of columns</th>
-                <td colspan="6">12</td>
+                <td colspan="7">12</td>
               </tr>
 <!--
               <tr>
@@ -209,19 +218,19 @@
 -->
               <tr>
                 <th>Gutter width</th>
-                <td colspan="6">30px (15px on each side of a column)</td>
+                <td colspan="7">30px (15px on each side of a column)</td>
               </tr>
               <tr>
                 <th>Nestable</th>
-                <td colspan="6">Yes</td>
+                <td colspan="7">Yes</td>
               </tr>
               <tr>
                 <th>Offsets</th>
-                <td colspan="6">Yes</td>
+                <td colspan="7">Yes</td>
               </tr>
               <tr>
                 <th>Column ordering</th>
-                <td colspan="6">Yes</td>
+                <td colspan="7">Yes</td>
               </tr>
             </tbody>
           </table>
@@ -258,6 +267,10 @@
                   <small>≥2880px</small>
                 </th>
                 <th>
+                  UHD TV
+                  <small>≥3840px</small>
+                </th>
+                <th>
                   4K TV
                   <small>≥4096px</small>
                 </th>
@@ -276,11 +289,13 @@
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
                 <th><code>.visible-tv1080p</code></th>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -294,6 +309,7 @@
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
                 <th><code>.visible-retina15</code></th>
@@ -303,9 +319,21 @@
                 <td class="is-visible">Visible</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tvUHD</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
                 <th><code>.visible-tv4k</code></th>
+                <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -314,7 +342,8 @@
                 <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
-                <th><code>.visible-tv4k</code></th>
+                <th><code>.visible-tv8k</code></th>
+                <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -332,11 +361,13 @@
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
               </tr>
               <tr>
                 <th><code>.hidden-tv1080p</code></th>
                 <td class="is-visible">Visible</td>
                 <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -350,9 +381,21 @@
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
               </tr>
               <tr>
                 <th><code>.hidden-retina15</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tvUHD</code></th>
+                <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -366,11 +409,13 @@
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-visible">Visible</td>
               </tr>
               <tr>
                 <th><code>.hidden-tv8k</code></th>
+                <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -388,28 +433,35 @@
         <h3>Visible on...</h3>
         <p>Green checkmarks indicate the element <strong>is visible</strong> in your current viewport.</p>
         <div class="row responsive-utilities-test visible-on">
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv720p">720p</span>
             <span class="visible-tv720p">&#10004; Visible on 720p</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv1080p">1080p</span>
             <span class="visible-tv1080p">&#10004; Visible on 1080p</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv1440p">1440p</span>
             <span class="visible-tv1440p">&#10004; Visible on 1440p</span>
           </div>
-          <div class="clearfix visible-xs"></div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-retina15">Retina 15"</span>
             <span class="visible-retina15">&#10004; Visible on Retina 15"</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+        </div>
+        <div class="row responsive-utilities-test visible-on">
+          <div class="col-xs-12 col-sm-3">
+            <span class="hidden-tvUHD">UHD</span>
+            <span class="visible-tvUHD">&#10004; Visible on UHD</span>
+          </div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv4k">4k</span>
             <span class="visible-tv4k">&#10004; Visible on 4k</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv8k">8k</span>
             <span class="visible-tv8k">&#10004; Visible on 8k</span>
           </div>
@@ -418,28 +470,36 @@
         <h3>Hidden on...</h3>
         <p>Here, green checkmarks also indicate the element <strong>is hidden</strong> in your current viewport.</p>
         <div class="row responsive-utilities-test hidden-on">
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv720p">720p</span>
             <span class="visible-tv720p">&#10004; Visible on 720p</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv1080p">1080p</span>
             <span class="visible-tv1080p">&#10004; Visible on 1080p</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv1440p">1440p</span>
             <span class="visible-tv1440p">&#10004; Visible on 1440p</span>
           </div>
-          <div class="clearfix visible-xs"></div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-retina15">Retina 15"</span>
             <span class="visible-retina15">&#10004; Visible on Retina 15"</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+        </div>
+
+        <div class="row responsive-utilities-test hidden-on">
+          <div class="col-xs-12 col-sm-3">
+            <span class="hidden-tvUHD">UHD</span>
+            <span class="visible-tvUHD">&#10004; Visible on UHD</span>
+          </div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv4k">4k</span>
             <span class="visible-tv4k">&#10004; Visible on 4k</span>
           </div>
-          <div class="col-xs-4 col-sm-2">
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-12 col-sm-3">
             <span class="hidden-tv8k">8k</span>
             <span class="visible-tv8k">&#10004; Visible on 8k</span>
           </div>
@@ -458,7 +518,7 @@
             documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
           </p>
           <ul class="footer-links">
-            <li>Currently v0.1.4 (Bootstrap v3.2.0)</li>
+            <li>Currently v0.1.5 (Bootstrap v3.2.0)</li>
             <li class="muted">·</li>
             <li><a href="http://getbootstrap.com/">Bootstrap Docs</a></li>
             <li class="muted">·</li>

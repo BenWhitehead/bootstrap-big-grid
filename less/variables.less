@@ -6,6 +6,8 @@
 
 @screen-retina15-min: 2880px;
 
+@screen-tvUHD-min: 3840px;
+
 @screen-tv4k-min: 4096px;
 
 @screen-tv8k-min: 8192px;
@@ -14,7 +16,8 @@
 @screen-tv720p-max:                 (@screen-tv1080p-min - 1);
 @screen-tv1080p-max:                (@screen-tv1440p-min - 1);
 @screen-tv1440p-max:                (@screen-retina15-min - 1);
-@screen-retina15-max:               (@screen-tv4k-min - 1);
+@screen-retina15-max:               (@screen-tvUHD-min - 1);
+@screen-tvUHD-max:                  (@screen-tv4k-min - 1);
 @screen-tv4k-max:                   (@screen-tv8k-min - 1);
 
 @container-tv720p-desktop:            ((1306px + @grid-gutter-width));
@@ -25,6 +28,8 @@
 @container-tv1440p:                   @container-tv1440p-desktop;
 @container-retina15-desktop:          ((2820px + @grid-gutter-width));
 @container-retina15:                  @container-retina15-desktop;
+@container-tvUHD-desktop:             ((3840px + @grid-gutter-width));
+@container-tvUHD:                     @container-tvUHD-desktop;
 @container-tv4k-desktop:              ((4036px + @grid-gutter-width));
 @container-tv4k:                      @container-tv4k-desktop;
 @container-tv8k-desktop:              ((8132px + @grid-gutter-width));

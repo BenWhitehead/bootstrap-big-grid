@@ -23,7 +23,7 @@ Alternatively download a [release](https://github.com/BenWhitehead/bootstrap-big
 Then link it into your page after the main bootstrap css
 
 ```html
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="bower_components/bootstrap-big-grid/dist/css/bootstrap-big-grid.min.css"/>
 ```
 
@@ -34,7 +34,8 @@ New Classes
 `.col-tv720p-`    : 1366 x 768  
 `.col-tv1080p-`   : 1920 x 1080  
 `.col-tv1440p-`   : 2560 x 1440  
-`.col-retina15-`  : 2880 x 1800  
+`.col-retina15-`  : 2880 x 1800
+`.col-tvUHD-`     : 3840 × 2160
 `.col-tv4k-`      : 4096 x 2304  
 `.col-tv8k-`      : 8192 x 4608  
 
@@ -42,17 +43,19 @@ New Classes
 `.visible-tv720p`  
 `.visible-tv1080p`  
 `.visible-tv1440p`  
-`.visible-retina15`  
+`.visible-retina15`
+`.visible-tvUHD`
 `.visible-tv4k`  
 `.visible-tv8k`  
 
 `.hidden-tv720p`  
 `.hidden-tv1080p`  
 `.hidden-tv1440p`  
-`.hidden-retina15`  
+`.hidden-retina15`
+`.hidden-tvUHD`
 `.hidden-tv4k`  
 `.hidden-tv8k`  
 
 Copyright and License
 =====================
-Copyright 2013 Ben Whitehead under the Apache 2.0 license.
+Copyright 2013-2014 Ben Whitehead under the Apache 2.0 license.
