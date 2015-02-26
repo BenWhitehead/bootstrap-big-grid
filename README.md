@@ -34,8 +34,8 @@ New Classes
 `.col-xlg-`    : 1366 x 768  
 `.col-fhd-`   : 1920 x 1080  
 `.col-rt-`   : 2560 x 1440  
-`.col-rt15-`  : 2880 x 1800
-`.col-uhd-`     : 3840 × 2160
+`.col-rt15-`  : 2880 x 1800  
+`.col-uhd-`     : 3840 × 2160  
 `.col-4k-`      : 4096 x 2304  
 `.col-8k-`      : 8192 x 4608  
 
@@ -43,16 +43,16 @@ New Classes
 `.visible-xlg`  
 `.visible-fhd`  
 `.visible-rt`  
-`.visible-rt15`
-`.visible-uhd`
+`.visible-rt15`  
+`.visible-uhd`  
 `.visible-4k`  
 `.visible-8k`  
-
+  
 `.hidden-xlg`  
 `.hidden-fhd`  
 `.hidden-rt`  
-`.hidden-rt15`
-`.hidden-uhd`
+`.hidden-rt15`  
+`.hidden-uhd`  
 `.hidden-4k`  
 `.hidden-8k`  
 
