@@ -31,30 +31,30 @@ New Classes
 ===========
 
 ### New Grid Classes
-`.col-tv720p-`    : 1366 x 768  
-`.col-tv1080p-`   : 1920 x 1080  
-`.col-tv1440p-`   : 2560 x 1440  
-`.col-retina15-`  : 2880 x 1800
-`.col-tvUHD-`     : 3840 × 2160
-`.col-tv4k-`      : 4096 x 2304  
-`.col-tv8k-`      : 8192 x 4608  
+`.col-xlg-`    : 1366 x 768  
+`.col-fhd-`   : 1920 x 1080  
+`.col-rt-`   : 2560 x 1440  
+`.col-rt15-`  : 2880 x 1800  
+`.col-uhd-`     : 3840 × 2160  
+`.col-4k-`      : 4096 x 2304  
+`.col-8k-`      : 8192 x 4608  
 
 ### New Responsive Utilities Classes
-`.visible-tv720p`  
-`.visible-tv1080p`  
-`.visible-tv1440p`  
-`.visible-retina15`
-`.visible-tvUHD`
-`.visible-tv4k`  
-`.visible-tv8k`  
-
-`.hidden-tv720p`  
-`.hidden-tv1080p`  
-`.hidden-tv1440p`  
-`.hidden-retina15`
-`.hidden-tvUHD`
-`.hidden-tv4k`  
-`.hidden-tv8k`  
+`.visible-xlg`  
+`.visible-fhd`  
+`.visible-rt`  
+`.visible-rt15`  
+`.visible-uhd`  
+`.visible-4k`  
+`.visible-8k`  
+  
+`.hidden-xlg`  
+`.hidden-fhd`  
+`.hidden-rt`  
+`.hidden-rt15`  
+`.hidden-uhd`  
+`.hidden-4k`  
+`.hidden-8k`  
 
 Copyright and License
 =====================
