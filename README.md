@@ -56,6 +56,13 @@ New Classes
 `.hidden-4k`  
 `.hidden-8k`  
 
+Project Status
+==============
+
+Unfortunately I no longer work on UI projects and as such I don't have the time required to keep this project always up to date with the latest version of bootstrap.  If you would like to submit a PR i'd be happy to merge it as long as it doesn't break existing functionality. Or, if you'd like feel free to fork the repo and start making improvments.
+
+Thanks for your understanding.
+
 Copyright and License
 =====================
 Copyright 2013-2014 Ben Whitehead under the Apache 2.0 license.
