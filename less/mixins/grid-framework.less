@@ -1,11 +1,11 @@
 .make-big-grid-columns() {
   // Common styles for all sizes of grid columns, widths 1-12
   .col(@index) { // initial
-    @item: ~".col-xlg-@{index}, .col-fhd-@{index}, .col-rt-@{index}, .col-rt15-@{index}, .col-uhd-@{index}, .col-4k-@{index}, .col-8k-@{index}";
+    @item: ~".col-hd-@{index}, .col-fhd-@{index}, .col-rt-@{index}, .col-rt15-@{index}, .col-4k-@{index}, .col-5k-@{index}, .col-8k-@{index}";
     .col((@index + 1), @item);
   }
   .col(@index, @list) when (@index =< @grid-columns) { // general; "=<" isn't a typo
-    @item: ~".col-xlg-@{index}, .col-fhd-@{index}, .col-rt-@{index}, .col-rt15-@{index}, .col-uhd-@{index}, .col-4k-@{index}, .col-8k-@{index}";
+    @item: ~".col-hd-@{index}, .col-fhd-@{index}, .col-rt-@{index}, .col-rt15-@{index}, .col-4k-@{index}, .col-5k-@{index}, .col-8k-@{index}";
     .col((@index + 1), ~"@{list}, @{item}");
   }
   .col(@index, @list) when (@index > @grid-columns) { // terminal

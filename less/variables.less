@@ -1,4 +1,4 @@
-@screen-xlg-min: 1366px;
+@screen-hd-min: 1366px;
 
 @screen-fhd-min: 1920px;
 
@@ -6,31 +6,31 @@
 
 @screen-rt15-min: 2880px;
 
-@screen-uhd-min: 3840px;
+@screen-4k-min: 3840px;
 
-@screen-4k-min: 4096px;
+@screen-5k-min: 5120px;
 
-@screen-8k-min: 8192px;
+@screen-8k-min: 7680px;
 
-@screen-lg-max:                     (@screen-xlg-min - 1);
-@screen-xlg-max:                 (@screen-fhd-min - 1);
+@screen-lg-max:                     (@screen-hd-min - 1);
+@screen-hd-max:                 (@screen-fhd-min - 1);
 @screen-fhd-max:                (@screen-rt-min - 1);
 @screen-rt-max:                (@screen-rt15-min - 1);
-@screen-rt15-max:               (@screen-uhd-min - 1);
-@screen-uhd-max:                  (@screen-4k-min - 1);
-@screen-4k-max:                   (@screen-8k-min - 1);
+@screen-rt15-max:               (@screen-4k-min - 1);
+@screen-4k-max:                  (@screen-5k-min - 1);
+@screen-5k-max:                   (@screen-8k-min - 1);
 
-@container-xlg-desktop:            ((1306px + @grid-gutter-width));
-@container-xlg:                    @container-xlg-desktop;
+@container-hd-desktop:            ((1306px + @grid-gutter-width));
+@container-hd:                    @container-hd-desktop;
 @container-fhd-desktop:           ((1860px + @grid-gutter-width));
 @container-fhd:                   @container-fhd-desktop;
 @container-rt-desktop:           ((2500px + @grid-gutter-width));
 @container-rt:                   @container-rt-desktop;
 @container-rt15-desktop:          ((2820px + @grid-gutter-width));
 @container-rt15:                  @container-rt15-desktop;
-@container-uhd-desktop:             ((3840px + @grid-gutter-width));
-@container-uhd:                     @container-uhd-desktop;
-@container-4k-desktop:              ((4036px + @grid-gutter-width));
-@container-4k:                      @container-4k-desktop;
-@container-8k-desktop:              ((8132px + @grid-gutter-width));
+@container-4k-desktop:             ((3780px + @grid-gutter-width));
+@container-4k:                     @container-4k-desktop;
+@container-5k-desktop:              ((5060px + @grid-gutter-width));
+@container-5k:                      @container-5k-desktop;
+@container-8k-desktop:              ((7620px + @grid-gutter-width));
 @container-8k:                      @container-8k-desktop;
