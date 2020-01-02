@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-big-grid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "authors": [
     "Ben Whitehead <benjamin.r.whitehead@gmail.com>",
     "İsmail Demirbilek <ce.demirbilek@gmail.com>"
@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.7"
+    "bootstrap": "~3.4.1"
   }
 }

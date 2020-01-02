@@ -12,6 +12,8 @@ Bootstraps Grid only provides a grid up to 1200px wide, this project provides mo
 
 Changelog
 =========
+02/01/2020 Updated for Bootstrap 3.4.1
+
 09/10/2017 Updated grid class names and sizes for a more even spread of breakpoints at higher resolutions and to ensure future class compatibility with Bootstrap 4.
 - ```col-xlg-*``` => ```col-hd-*```
 - ```col-uhd-*``` => ```col-4k-*```, breakpoint at 3840px

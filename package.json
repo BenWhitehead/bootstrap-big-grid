@@ -1,8 +1,12 @@
 {
   "name": "bootstrap-big-grid",
   "description": "A set of larger grid options for Bootstrap.",
-  "version": "0.2.0",
-  "keywords": ["bootstrap", "css", "grid"],
+  "version": "0.2.1",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "grid"
+  ],
   "main": "Gruntfile.js",
   "author": "BenWhitehead",
   "homepage": "https://github.com/BenWhitehead/bootstrap-big-grid",
@@ -20,11 +24,11 @@
     }
   ],
   "devDependencies": {
-    "bower": "~1.2.7",
+    "bower": "^1.2.8",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
-    "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-connect": "~0.5.0",
-    "grunt-contrib-less": "~0.8.2"
+    "grunt-contrib-less": "~0.8.2",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }
