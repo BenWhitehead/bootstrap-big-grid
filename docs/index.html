@@ -42,36 +42,36 @@
       text-align: center;
       border-radius: 4px;
     }
-    .visible-on .col-xs-12 .hidden-xlg,
+    .visible-on .col-xs-12 .hidden-hd,
     .visible-on .col-xs-12 .hidden-fhd,
     .visible-on .col-xs-12 .hidden-rt,
     .visible-on .col-xs-12 .hidden-rt15,
-    .visible-on .col-xs-12 .hidden-uhd,
     .visible-on .col-xs-12 .hidden-4k,
+    .visible-on .col-xs-12 .hidden-5k,
     .visible-on .col-xs-12 .hidden-8k,
-    .hidden-on .col-xs-12 .hidden-xlg,
+    .hidden-on .col-xs-12 .hidden-hd,
     .hidden-on .col-xs-12 .hidden-fhd,
     .hidden-on .col-xs-12 .hidden-rt,
     .hidden-on .col-xs-12 .hidden-rt15,
-    .hidden-on .col-xs-12 .hidden-uhd,
     .hidden-on .col-xs-12 .hidden-4k,
+    .hidden-on .col-xs-12 .hidden-5k,
     .hidden-on .col-xs-12 .hidden-8k {
       color: #999;
       border: 1px solid #ddd;
     }
-    .visible-on .col-xs-12 .visible-xlg,
+    .visible-on .col-xs-12 .visible-hd,
     .visible-on .col-xs-12 .visible-fhd,
     .visible-on .col-xs-12 .visible-rt,
     .visible-on .col-xs-12 .visible-rt15,
-    .visible-on .col-xs-12 .visible-uhd,
     .visible-on .col-xs-12 .visible-4k,
+    .visible-on .col-xs-12 .visible-5k,
     .visible-on .col-xs-12 .visible-8k,
-    .hidden-on .col-xs-12 .visible-xlg,
+    .hidden-on .col-xs-12 .visible-hd,
     .hidden-on .col-xs-12 .visible-fhd,
     .hidden-on .col-xs-12 .visible-rt,
     .hidden-on .col-xs-12 .visible-rt15,
-    .hidden-on .col-xs-12 .visible-uhd,
     .hidden-on .col-xs-12 .visible-4k,
+    .hidden-on .col-xs-12 .visible-5k,
     .hidden-on .col-xs-12 .visible-8k {
       color: #468847;
       background-color: #dff0d8;
@@ -146,7 +146,7 @@
               <tr>
                 <th></th>
                 <th>
-                  720p
+                  HD Ready 720p
                   <small>≥1366px</small>
                 </th>
                 <th>
@@ -154,7 +154,7 @@
                   <small>≥1920px</small>
                 </th>
                 <th>
-                  Retina 1440p
+                  13" Retina
                   <small>≥2560px</small>
                 </th>
                 <th>
@@ -162,16 +162,16 @@
                   <small>≥2880px</small>
                 </th>
                 <th>
-                  UHD
+                  UHD 4K
                   <small>≥3840px</small>
                 </th>
                 <th>
-                  4K
-                  <small>≥4096px</small>
+                  5K
+                  <small>≥5120px</small>
                 </th>
                 <th>
                   8K
-                  <small>≥8192px</small>
+                  <small>≥7680px</small>
                 </th>
               </tr>
             </thead>
@@ -193,12 +193,12 @@
 -->
               <tr>
                 <th>Class prefix</th>
-                <td><code>.col-xlg-</code></td>
+                <td><code>.col-hd-</code></td>
                 <td><code>.col-fhd-</code></td>
                 <td><code>.col-rt-</code></td>
                 <td><code>.col-rt15-</code></td>
-                <td><code>.col-uhd-</code></td>
                 <td><code>.col-4k-</code></td>
+                <td><code>.col-5k-</code></td>
                 <td><code>.col-8k-</code></td>
               </tr>
               <tr>
@@ -251,7 +251,7 @@
               <tr>
                 <th></th>
                 <th>
-                  720p
+                  HD Ready 720p
                   <small>≥1366px</small>
                 </th>
                 <th>
@@ -259,7 +259,7 @@
                   <small>≥1920px</small>
                 </th>
                 <th>
-                  Retina
+                  13" Retina
                   <small>≥2560px</small>
                 </th>
                 <th>
@@ -267,22 +267,22 @@
                   <small>≥2880px</small>
                 </th>
                 <th>
-                  UHD
+                  UHD 4K
                   <small>≥3840px</small>
                 </th>
                 <th>
-                  4K
-                  <small>≥4096px</small>
+                  5K
+                  <small>≥5120px</small>
                 </th>
                 <th>
                   8K
-                  <small>≥8192px</small>
+                  <small>≥7680px</small>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th><code>.visible-xlg</code></th>
+                <th><code>.visible-hd</code></th>
                 <td class="is-visible">Visible</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -322,7 +322,7 @@
                 <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
-                <th><code>.visible-uhd</code></th>
+                <th><code>.visible-4k</code></th>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -332,7 +332,7 @@
                 <td class="is-hidden">Hidden</td>
               </tr>
               <tr>
-                <th><code>.visible-4k</code></th>
+                <th><code>.visible-5k</code></th>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-hidden">Hidden</td>
@@ -354,7 +354,7 @@
             </tbody>
             <tbody>
               <tr>
-                <th><code>.hidden-xlg</code></th>
+                <th><code>.hidden-hd</code></th>
                 <td class="is-hidden">Hidden</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -394,7 +394,7 @@
                 <td class="is-visible">Visible</td>
               </tr>
               <tr>
-                <th><code>.hidden-uhd</code></th>
+                <th><code>.hidden-4k</code></th>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -404,7 +404,7 @@
                 <td class="is-visible">Visible</td>
               </tr>
               <tr>
-                <th><code>.hidden-4k</code></th>
+                <th><code>.hidden-5k</code></th>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
                 <td class="is-visible">Visible</td>
@@ -434,8 +434,8 @@
         <p>Green checkmarks indicate the element <strong>is visible</strong> in your current viewport.</p>
         <div class="row responsive-utilities-test visible-on">
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-xlg">720p</span>
-            <span class="visible-xlg">&#10004; Visible on 720p</span>
+            <span class="hidden-hd">720p</span>
+            <span class="visible-hd">&#10004; Visible on 720p</span>
           </div>
           <div class="col-xs-12 col-sm-3">
             <span class="hidden-fhd">1080p</span>
@@ -443,8 +443,8 @@
           </div>
           <div class="clearfix visible-xs"></div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-rt">1440p</span>
-            <span class="visible-rt">&#10004; Visible on 1440p</span>
+            <span class="hidden-rt">Retina 13"</span>
+            <span class="visible-rt">&#10004; Visible on Retina 13"</span>
           </div>
           <div class="col-xs-12 col-sm-3">
             <span class="hidden-rt15">Retina 15"</span>
@@ -453,17 +453,17 @@
         </div>
         <div class="row responsive-utilities-test visible-on">
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-uhd">UHD</span>
-            <span class="visible-uhd">&#10004; Visible on UHD</span>
+            <span class="hidden-4k">UHD 4K</span>
+            <span class="visible-4k">&#10004; Visible on 4K</span>
           </div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-4k">4k</span>
-            <span class="visible-4k">&#10004; Visible on 4k</span>
+            <span class="hidden-5k">5K</span>
+            <span class="visible-5k">&#10004; Visible on 5K</span>
           </div>
           <div class="clearfix visible-xs"></div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-8k">8k</span>
-            <span class="visible-8k">&#10004; Visible on 8k</span>
+            <span class="hidden-8k">8K</span>
+            <span class="visible-8k">&#10004; Visible on 8K</span>
           </div>
         </div>
 
@@ -471,8 +471,8 @@
         <p>Here, green checkmarks also indicate the element <strong>is hidden</strong> in your current viewport.</p>
         <div class="row responsive-utilities-test hidden-on">
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-xlg">720p</span>
-            <span class="visible-xlg">&#10004; Visible on 720p</span>
+            <span class="hidden-hd">720p</span>
+            <span class="visible-hd">&#10004; Visible on 720p</span>
           </div>
           <div class="col-xs-12 col-sm-3">
             <span class="hidden-fhd">1080p</span>
@@ -480,8 +480,8 @@
           </div>
           <div class="clearfix visible-xs"></div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-rt">1440p</span>
-            <span class="visible-rt">&#10004; Visible on 1440p</span>
+            <span class="hidden-rt">Retina 13"</span>
+            <span class="visible-rt">&#10004; Visible on Retina 13"</span>
           </div>
           <div class="col-xs-12 col-sm-3">
             <span class="hidden-rt15">Retina 15"</span>
@@ -491,17 +491,17 @@
 
         <div class="row responsive-utilities-test hidden-on">
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-uhd">UHD</span>
-            <span class="visible-uhd">&#10004; Visible on UHD</span>
+            <span class="hidden-4k">UHD 4K</span>
+            <span class="visible-4k">&#10004; Visible on UHD 4K</span>
           </div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-4k">4k</span>
-            <span class="visible-4k">&#10004; Visible on 4k</span>
+            <span class="hidden-5k">5K</span>
+            <span class="visible-5k">&#10004; Visible on 5K</span>
           </div>
           <div class="clearfix visible-xs"></div>
           <div class="col-xs-12 col-sm-3">
-            <span class="hidden-8k">8k</span>
-            <span class="visible-8k">&#10004; Visible on 8k</span>
+            <span class="hidden-8k">8K</span>
+            <span class="visible-8k">&#10004; Visible on 8K</span>
           </div>
         </div>
 
